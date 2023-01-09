@@ -1,5 +1,7 @@
 def linearsearch(a,n):
+	count=0
 	for i in range(len(a)):
 		if a[i] ==n:
-			print(i)
-linearsearch([1,10,6,100,30,60,70],30)
+			count+=1
+			print(count)
+linearsearch([1,30,6,5,30,60,30],30)
